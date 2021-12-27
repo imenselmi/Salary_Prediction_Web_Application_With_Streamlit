@@ -1,0 +1,25 @@
+#create new environment:
+1)open cmd
+2)conda.bat create --name nameofnewenv
+exp:
+conda.bat create mlapp
+3)conda.bat activate nameofnewenv
+exp:
+conda.bat activate mlapp
+#install the packages :
+conda install nameofpackage
+exp:
+conda install nympy
+#install envirement in jupyter:
+open cmd :
+ipython kernel install --user --name=nameofenv
+exp:
+ipython kernel install --user --name=mlapp
+#Streamlit library  :
+open  vs code 
+open new terminal 
+pip install Streamlit 
+when you finish you application and you want see the page :
+open new terminal and tap:
+Streamlit run nameofpage.py
+
